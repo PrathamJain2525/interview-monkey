@@ -1,12 +1,62 @@
-# React + Vite
+# 🐵 Interview Monkey – AI-Powered Interview Prep App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Interview Monkey** is a full-stack AI-driven web application designed to help users prepare for coding and behavioral interviews efficiently. Built with the powerful **MERN stack** and integrated with **Google Gemini API**, the app generates personalized interview questions tailored to the user’s domain and experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔧 **Full-Stack MERN Architecture**
+  - MongoDB Atlas for data persistence
+  - Express.js & Node.js for backend logic
+  - React.js for an interactive frontend UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🤖 **AI-Powered Question Generation**
+  - Integrated with **Google Gemini API** to generate domain-specific:
+    - ✅ Coding questions
+    - ✅ Behavioral questions
+
+- 👤 **Smart User Management**
+  - Users can sign up, log in, and save progress
+  - Personalized dashboard with interview history and performance tracking
+
+- 📊 **Efficient Data Handling**
+  - MongoDB Atlas stores user profiles, question logs, and AI-generated interview content
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology       | Usage                         |
+|------------------|-------------------------------|
+| MongoDB Atlas     | Cloud-based NoSQL Database     |
+| Express.js       | Backend Framework (Node.js)    |
+| React.js         | Frontend UI                    |
+| Node.js          | Server-side runtime            |
+| Google Gemini API| AI-based content generation    |
+
+---
+
+Here's a preview of the Interview Monkey frontend 
+![Image](https://github.com/user-attachments/assets/9c25975d-d2e0-46e2-9ba5-febe21f071a0)
+
+
+---
+
+## 🧪 Installation & Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/interview-monkey.git
+cd interview-monkey
+
+# Install backend dependencies
+cd backend
+npm install
+
+# Install frontend dependencies
+cd frontend/interview-prep-ai
+npm install
+
+# Create environment variables (.env) for backend
+# Include MongoDB URI and Google Gemini API key
