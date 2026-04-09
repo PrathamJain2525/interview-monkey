@@ -1,4 +1,4 @@
-export const BASE_URL = "https://interview-monkey-backend.onrender.com/";
+export const BASE_URL = "https://interview-monkey-b5c8.onrender.com";
 
 export const API_PATHS = {
   AUTH: {
